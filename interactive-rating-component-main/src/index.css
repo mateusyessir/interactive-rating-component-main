@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --medium-gray: hsl(216, 12%, 54%);
+    --light-gray: hsl(217, 12%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --primary-color: hsl(25, 97%, 53%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+}
+
+.wrapper {
+    width: 30vw;
+    background-color: var(--dark-blue);
+    border-radius: 1rem;
+}
+
+.icon-star {
+    margin: 1rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+    background-color: var(--very-dark-blue);
+    border: 0.2rem solid var(--very-dark-blue);
+}
+
+.title {
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 1rem;
+    margin: 1rem;
+    color: var(--light-gray);
+}
+
+.avaliation-and-submit {
+    margin: 1rem;
+}
+
+.avaliation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avaliation button {
+    font-size: 1rem;
+    padding: 1.2rem;
+    border-radius: 1.6rem;
+    border: none;
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    transition: .3s ease-out;
+}
+
+.avaliation button:hover {
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+.avaliation button:active {
+    background-color: var(--medium-gray);
+}
+
+.submit-btn {
+    margin: 1rem 0;
+}
+
+.submit-btn button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 1rem;
+    color: var(--white);
+    letter-spacing: 0.2ch;
+    margin: 1rem 0;
+    transition: .3s ease-out;
+}
+
+
+.submit-btn button:hover {
+    cursor: pointer;
+    letter-spacing: 0.6ch;
+    background-color: hsl(25, 100%, 50%);
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 35vw;
+        background-color: var(--dark-blue);
+        border-radius: 1rem;
+    }
+    .icon-star {
+        margin: 1rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: var(--very-dark-blue);
+        border: 0.2rem solid var(--very-dark-blue);
+    }
+    
+    .title {
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+        color: var(--light-gray);
+    }
+    
+    .avaliation-and-submit {
+        margin: 1rem;
+    }
+    
+    .avaliation {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .avaliation button {
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 1.4rem;
+        border: none;
+        background-color: var(--very-dark-blue);
+        color: var(--white);
+    }
+    
+    .submit-btn {
+        margin: 1rem 0;
+    }
+    
+    .submit-btn button {
+        width: 100%;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 1rem;
+        color: var(--white);
+        letter-spacing: 0.2ch;
+    }
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        width: 50vw;
+        background-color: var(--dark-blue);
+        border-radius: 1rem;
+    }
+    .icon-star {
+        margin: 1rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: var(--very-dark-blue);
+        border: 0.2rem solid var(--very-dark-blue);
+    }
+    
+    .title {
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+        color: var(--light-gray);
+    }
+    
+    .avaliation-and-submit {
+        margin: 1rem;
+    }
+    
+    .avaliation {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .avaliation button {
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 1.4rem;
+        border: none;
+        background-color: var(--very-dark-blue);
+        color: var(--white);
+    }
+    
+    .submit-btn {
+        margin: 1rem 0;
+    }
+    
+    .submit-btn button {
+        width: 100%;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 1rem;
+        color: var(--white);
+        letter-spacing: 0.2ch;
+    }
+}
+
+@media (max-width: 715px) {
+    .wrapper {
+        width: 75vw;
+        background-color: var(--dark-blue);
+        border-radius: 1rem;
+    }
+    .icon-star {
+        margin: 1rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: var(--very-dark-blue);
+        border: 0.2rem solid var(--very-dark-blue);
+    }
+    
+    .title {
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+        color: var(--light-gray);
+    }
+    
+    .avaliation-and-submit {
+        margin: 1rem;
+    }
+    
+    .avaliation {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .avaliation button {
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 1.4rem;
+        border: none;
+        background-color: var(--very-dark-blue);
+        color: var(--white);
+    }
+    
+    .submit-btn {
+        margin: 1rem 0;
+    }
+    
+    .submit-btn button {
+        width: 100%;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 1rem;
+        color: var(--white);
+        letter-spacing: 0.2ch;
+    }
+}
+
+@media (max-width: 375px) {
+    .wrapper {
+        width: 85vw;
+        background-color: var(--dark-blue);
+        border-radius: 1rem;
+    }
+    
+    .icon-star {
+        margin: 1rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: var(--very-dark-blue);
+        border: 0.2rem solid var(--very-dark-blue);
+    }
+    
+    .title {
+        margin: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .paragraph {
+        font-size: 1rem;
+        margin: 1rem;
+        color: var(--light-gray);
+    }
+    
+    .avaliation-and-submit {
+        margin: 1rem;
+    }
+    
+    .avaliation {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .avaliation button {
+        font-size: 1rem;
+        padding: 0.8rem;
+        border-radius: 1.4rem;
+        border: none;
+        background-color: var(--very-dark-blue);
+        color: var(--white);
+    }
+    
+    .submit-btn {
+        margin: 1rem 0;
+    }
+    
+    .submit-btn button {
+        width: 100%;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 1rem;
+        color: var(--white);
+        letter-spacing: 0.2ch;
+    }
+}
+
+@media (max-width: 280px) {
+    .wrapper {
+        width: 85vw;
+        background-color: var(--dark-blue);
+        border-radius: 1rem;
+    }
+    
+    .icon-star {
+        margin: 1rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        background-color: var(--very-dark-blue);
+        border: 0.2rem solid var(--very-dark-blue);
+    }
+    
+    .title {
+        margin: 1rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    
+    .paragraph {
+        font-size: 0.8rem;
+        margin: 1rem;
+        color: var(--light-gray);
+    }
+    
+    .avaliation-and-submit {
+        margin: 1rem;
+    }
+    
+    .avaliation {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .avaliation button {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+        border-radius: 1.4rem;
+        border: none;
+        background-color: var(--very-dark-blue);
+        color: var(--white);
+    }
+    
+    .submit-btn {
+        margin: 1rem 0;
+    }
+    
+    .submit-btn button {
+        width: 100%;
+        padding: 0.5rem;
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 1rem;
+        color: var(--white);
+        letter-spacing: 0.2ch;
+    }
+    
+}
